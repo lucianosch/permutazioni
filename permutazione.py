@@ -32,8 +32,6 @@ def fact2n(f):
 
 def perm2fact(p):
     p0 = [x for x in range(len(p))]
-    # f = [p0.index(p0.pop(p0.index(p[k]))) for k in range len(p)]
-
     f = []
     for k in range(len(p)):
         pos = p0.index(p[k])
